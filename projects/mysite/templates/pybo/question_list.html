@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+
 {% if question_list %}
     <ul>
     {% for question in question_list %}
@@ -8,4 +11,5 @@
     <p>질문이 없습니다.</p>
 {% endif %}
 
+{% endblock %}
 
